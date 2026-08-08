@@ -31,3 +31,7 @@ The application also provides **web search as a fallback** when the uploaded doc
 4. Groq generates an answer using the retrieved context.
 5. A verifier checks whether the answer is supported by the documents.
 6. If the answer cannot be reliably generated or verified, Tavily web search is used as a fallback.
+
+## 🎥 Demo Video
+
+https://drive.google.com/drive/folders/1Sp442dVun2mXI3d9B2U3rPffIhxv529M?usp=sharing
