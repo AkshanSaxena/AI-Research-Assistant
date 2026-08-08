@@ -1,0 +1,9 @@
+🚀 Improvement Write-up
+
+The current version of AIR – AI Research Assistant provides a functional Retrieval-Augmented Generation (RAG) pipeline that can ingest PDF documents, generate embeddings using Sentence Transformers, store them in ChromaDB, retrieve relevant chunks, and generate answers using a Groq-powered LLM. It also includes answer verification and web-search fallback capabilities.
+
+Several improvements can make the system more robust and production-ready. First, the document ingestion pipeline can be enhanced with better PDF parsing and preprocessing, including handling scanned PDFs through OCR and improving chunking strategies based on document structure rather than relying only on fixed chunk sizes. Retrieval can also be improved using hybrid search and reranking, combining semantic similarity with keyword-based retrieval to increase the relevance of the context provided to the LLM.
+
+The system could further benefit from a more persistent and scalable vector database setup instead of relying on local ChromaDB storage. Metadata filtering could also allow users to restrict queries to specific uploaded documents. On the generation side, prompt management and context selection can be optimized to reduce irrelevant information and improve answer quality.
+
+Finally, the application could include user authentication, better error handling, document management, persistent storage, and deployment on cloud infrastructure. These improvements would make AIR more scalable, reliable, and suitable for handling larger document collections while maintaining accurate and verifiable responses.
