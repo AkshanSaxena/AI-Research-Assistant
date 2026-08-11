@@ -7,6 +7,9 @@ from llm import generate_web_answer
 from verifier import verify_answer
 from web_search import web_search
 
+os.makedirs("data", exist_ok=True)
+os.makedirs("chroma_db", exist_ok=True)
+
 st.set_page_config(
     page_title = "AIR - AI Research Assistant",
     page_icon = "📄",
