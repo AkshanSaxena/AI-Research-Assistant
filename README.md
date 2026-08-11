@@ -35,3 +35,7 @@ The application also provides **web search as a fallback** when the uploaded doc
 ## 🎥 Demo Video
 
 https://drive.google.com/drive/folders/1Sp442dVun2mXI3d9B2U3rPffIhxv529M?usp=sharing
+
+## 🚀 Live Demo
+
+Try AI Research Assistant --> https://airrr.streamlit.app/
