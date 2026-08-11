@@ -38,4 +38,4 @@ https://drive.google.com/drive/folders/1Sp442dVun2mXI3d9B2U3rPffIhxv529M?usp=sha
 
 ## 🚀 Live Demo
 
-Try AI Research Assistant --> https://airrr.streamlit.app/
+Try AI Research Assistant --> https://airrrr.streamlit.app/
