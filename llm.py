@@ -22,7 +22,7 @@ def generate_answer(query, documents):
 
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         response_format={"type": "json_object"},
         max_completion_tokens=2048,
         temperature=0.4,
@@ -77,7 +77,7 @@ def generate_web_answer(query, web_results):
         )
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[
             {
                 "role": "system",

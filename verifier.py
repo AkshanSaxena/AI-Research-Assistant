@@ -22,7 +22,7 @@ def verify_answer(query, documents, answer):
         context += f"Document {i}:\n{doc}\n\n"
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         response_format={"type": "json_object"},
         max_completion_tokens=1500,
         temperature=0,
